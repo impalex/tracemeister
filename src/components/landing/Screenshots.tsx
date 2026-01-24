@@ -24,7 +24,7 @@ const Screenshots = () => {
           {screenshots.map((screen, index) => (
             <div key={index} className="group">
               {/* Phone mockup placeholder */}
-              <div className="relative aspect-[9/19] bg-card rounded-[2.5rem] border-4 border-muted p-2 mb-4 group-hover:border-primary/50 transition-colors">
+              <div className="relative aspect-[9/20] bg-card rounded-[2.5rem] border-4 border-muted p-2 mb-4 group-hover:border-primary/50 transition-colors">
                 {/* Screen area */}
                 <div className="relative h-full w-full rounded-[2rem] bg-secondary overflow-hidden flex flex-col items-center justify-center">
                   <img src={`${screen.screenshot}.png`} alt={`${screen.label} - ${screen.description}`} className="w-full h-full object-cover" />
